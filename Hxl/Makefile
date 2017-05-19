@@ -38,13 +38,16 @@ LOCALES =
 # translation
 SOURCES = \
 	__init__.py \
-	hxl.py hxl_dockwidget.py
+	hxl.py \
+	hxl_dockwidget.py
 
 PLUGINNAME = Hxl
 
 PY_FILES = \
 	__init__.py \
-	hxl.py hxl_dockwidget.py
+	hxl.py \
+	hxl_dockwidget.py \
+	hxl_manager.py
 
 UI_FILES = hxl_dockwidget_base.ui
 
