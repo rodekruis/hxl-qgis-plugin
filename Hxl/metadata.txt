@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=HXL
+qgisMinimumVersion=2.12
+description=Plugin for working with Humanitarian Exchange Language (HXL) data
+version=0.1
+author=510
+email=info@510.global
+
+about=Plugin for working with Humanitarian Exchange Language (HXL) data. More info on this data type can be found here: http://hxlstandard.org
+
+tracker=github
+repository=github
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=hxl hdx red cross 510 humanitarion exchange language data
+
+homepage=github
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
