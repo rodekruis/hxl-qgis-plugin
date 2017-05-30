@@ -29,6 +29,9 @@ import resources
 from hxl_dockwidget import HxlDockWidget
 import os.path
 
+# Import HxlAddJoin dialog
+from hxl_add_join import HxlAddJoinDialog
+
 
 class Hxl:
     """QGIS Plugin Implementation."""
@@ -71,7 +74,10 @@ class Hxl:
         #print "** INITIALIZING Hxl"
 
         self.pluginIsActive = False
-        self.dockwidget = None
+        
+        self.dockwidget = HxlDockWidget()
+        
+        self.add_join_dialog = HxlAddJoinDialog()
 
 
     # noinspection PyMethodMayBeStatic
@@ -173,6 +179,9 @@ class Hxl:
             text=self.tr(u'HXL'),
             callback=self.run,
             parent=self.iface.mainWindow())
+        
+        # gui item connections
+        self.dockwidget.btn_add_join.clicked.connect(self.add_join)
 
     #--------------------------------------------------------------------------
 
@@ -230,4 +239,16 @@ class Hxl:
             # TODO: fix to allow choice of dock location
             self.iface.addDockWidget(Qt.RightDockWidgetArea, self.dockwidget)
             self.dockwidget.show()
+    
+    def add_join(self):
+        """Shows dialog to add HXL join to a layer"""
+        
+        if self.add_join_dialog is None:
+            self.add_join_dialog = HxlAddJoinDialog()
+        
+        self.dockwidget.btn_add_join.clicked.connect(self.add_join)
+            
+        self.add_join_dialog.show()
+        
+        
 

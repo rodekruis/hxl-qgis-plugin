@@ -71,3 +71,12 @@ class HxlDataSet(object):
     
     def load_table(self):
         pass
+        
+        
+    def set_variables(self):
+        '''
+        layer = iface.activeLayer() # or similar way for loading a layer
+        QgsExpressionContextUtils.setLayerVariable(layer,'name', 'Ray')
+        test = QgsExpressionContextUtils.layerScope(layer).variable('name')
+        '''
+        pass

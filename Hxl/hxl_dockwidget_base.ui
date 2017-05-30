@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>347</width>
+    <width>466</width>
     <height>396</height>
    </rect>
   </property>
@@ -16,7 +16,11 @@
   <widget class="QWidget" name="dockWidgetContents">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QTableWidget" name="tableWidget"/>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="toolTip">
+       <string>URL to csv file</string>
+      </property>
+     </widget>
     </item>
     <item row="1" column="0">
      <widget class="QToolButton" name="toolButton">
@@ -26,9 +30,9 @@
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="btn_add_join">
       <property name="text">
-       <string>PushButton</string>
+       <string>Add join...</string>
       </property>
      </widget>
     </item>

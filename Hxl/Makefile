@@ -39,7 +39,8 @@ LOCALES =
 SOURCES = \
 	__init__.py \
 	hxl.py \
-	hxl_dockwidget.py
+	hxl_dockwidget.py \
+	hxl_add_join.py
 
 PLUGINNAME = Hxl
 
@@ -47,9 +48,11 @@ PY_FILES = \
 	__init__.py \
 	hxl.py \
 	hxl_dockwidget.py \
-	hxl_manager.py
+	hxl_manager.py \
+	hxl_add_join.py
 
-UI_FILES = hxl_dockwidget_base.ui
+UI_FILES = hxl_dockwidget_base.ui \
+    hxl_add_join.ui
 
 EXTRAS = metadata.txt icon.png
 
