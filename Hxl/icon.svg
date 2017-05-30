@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="6.595982"
+     inkscape:cx="-0.011160857"
      inkscape:cy="8.3403111"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -68,7 +68,7 @@
        ry="3" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:25.57764816px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ed5b4f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:25.57764816px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="3.0323048"
        y="1049.4158"
        id="text4146"
@@ -77,6 +77,18 @@
          id="tspan4148"
          x="3.0323048"
          y="1049.4158"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.57749939px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;">#</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:25.57764816px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ed5b4f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-19.735453"
+       y="1054.9301"
+       id="text4146-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4148-7"
+         x="-19.735453"
+         y="1054.9301"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.57749939px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">#</tspan></text>
   </g>
 </svg>
